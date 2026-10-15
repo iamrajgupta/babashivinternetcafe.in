@@ -1,0 +1,1033 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Baba Shiv Internet Cafe & Common Service Centre (CSC) | Kanpur</title>
+  <meta name="description" content="Baba Shiv Internet Cafe & Jan Seva Kendra in Barra 3, Kanpur. High-Speed 100 Mbps Wi-Fi, Govt Forms, PAN, Aadhaar, Banking, Printing, and Next-Day Appointments.">
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          colors: {
+            brand: {
+              50: '#f0f7ff',
+              100: '#e0effe',
+              500: '#0284c7',
+              600: '#0369a1',
+              700: '#075985',
+              800: '#0c4a6e',
+              900: '#082f49',
+              accent: '#f59e0b'
+            }
+          },
+          fontFamily: {
+            sans: ['Inter', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Google Fonts & Font Awesome Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <style>
+    * { font-family: 'Inter', sans-serif; }
+    h1, h2, h3, h4, .font-heading { font-family: 'Outfit', sans-serif; }
+
+    /* Custom Glassmorphism */
+    .glass-nav {
+      background: rgba(12, 17, 29, 0.85);
+      backdrop-filter: blur(14px);
+      -webkit-backdrop-filter: blur(14px);
+    }
+    .glass-card {
+      background: rgba(17, 24, 39, 0.7);
+      backdrop-filter: blur(12px);
+      border: 1px solid rgba(255, 255, 255, 0.08);
+    }
+    .glass-card:hover {
+      border-color: rgba(56, 189, 248, 0.3);
+      box-shadow: 0 12px 30px -10px rgba(2, 132, 199, 0.25);
+    }
+
+    /* Glow Effects */
+    .glow-blob {
+      filter: blur(80px);
+      pointer-events: none;
+    }
+
+    /* Custom Scrollbar */
+    ::-webkit-scrollbar { width: 8px; }
+    ::-webkit-scrollbar-track { background: #0b0f19; }
+    ::-webkit-scrollbar-thumb { background: #1e293b; border-radius: 4px; }
+    ::-webkit-scrollbar-thumb:hover { background: #0284c7; }
+
+    /* Subtle Animated Mesh */
+    .hero-mesh {
+      background: radial-gradient(circle at 50% 20%, rgba(2, 132, 199, 0.15) 0%, transparent 60%),
+                  radial-gradient(circle at 80% 80%, rgba(245, 158, 11, 0.08) 0%, transparent 50%);
+    }
+
+    /* 3D Tilt Card Effect */
+    .tilt-card {
+      transform-style: preserve-3d;
+      transition: transform 0.25s ease-out, box-shadow 0.25s ease-out;
+    }
+
+    /* Custom Pulse Dot */
+    @keyframes pulseRing {
+      0% { transform: scale(0.95); opacity: 0.8; }
+      50% { transform: scale(1.4); opacity: 0; }
+      100% { transform: scale(0.95); opacity: 0; }
+    }
+    .pulse-ring::before {
+      content: '';
+      position: absolute;
+      inset: -4px;
+      border-radius: 9999px;
+      background: inherit;
+      animation: pulseRing 2s cubic-bezier(0.24, 0, 0.38, 1) infinite;
+    }
+  </style>
+</head>
+
+<body class="bg-[#0b0f19] text-slate-200 antialiased selection:bg-sky-500 selection:text-white relative overflow-x-hidden">
+
+  <!-- Ambient Light Orbs -->
+  <div class="fixed top-0 left-1/4 w-96 h-96 bg-sky-500/10 rounded-full glow-blob -z-10"></div>
+  <div class="fixed bottom-1/4 right-10 w-96 h-96 bg-amber-500/10 rounded-full glow-blob -z-10"></div>
+
+  <!-- Top Announcement Bar -->
+  <aside aria-label="Announcement" class="bg-gradient-to-r from-brand-900 via-slate-900 to-brand-900 border-b border-white/5 py-2 text-xs">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 flex flex-wrap justify-between items-center gap-2">
+      <div class="flex items-center space-x-3">
+        <span class="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-xs font-semibold bg-sky-500/20 text-sky-300 border border-sky-500/30">
+          <i class="fa-solid fa-certificate text-[10px]"></i> CSC ID: 663467150015
+        </span>
+        <span class="hidden md:inline-flex items-center gap-1.5 text-slate-400">
+          <i class="fa-solid fa-wifi text-emerald-400"></i> High-Speed 100 Mbps Fibre Wi-Fi Enabled
+        </span>
+      </div>
+      <div class="flex items-center space-x-4 text-slate-300">
+        <a href="tel:9151512226" class="hover:text-white transition flex items-center gap-1">
+          <i class="fa-solid fa-phone text-sky-400"></i> +91 9151512226
+        </a>
+        <span class="text-slate-600">|</span>
+        <a href="mailto:cafe5301@gmail.com" class="hover:text-white transition flex items-center gap-1">
+          <i class="fa-solid fa-envelope text-amber-400"></i> cafe5301@gmail.com
+        </a>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Sticky Navbar -->
+  <nav class="sticky top-0 z-40 glass-nav border-b border-white/10 transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 h-20 flex items-center justify-between">
+      
+      <!-- Logo -->
+      <a href="#home" class="flex items-center gap-3 group">
+        <div class="w-12 h-12 rounded-xl bg-gradient-to-tr from-sky-600 to-amber-500 p-0.5 shadow-lg group-hover:scale-105 transition-transform duration-300">
+          <div class="w-full h-full bg-slate-950 rounded-[10px] flex items-center justify-center text-white">
+            <i class="fa-solid fa-network-wired text-xl text-sky-400"></i>
+          </div>
+        </div>
+        <div>
+          <div class="font-heading font-extrabold text-lg sm:text-xl text-white tracking-tight flex items-center gap-1.5">
+            BABA SHIV <span class="text-sky-400 font-medium text-xs sm:text-sm px-1.5 py-0.5 rounded bg-sky-950/60 border border-sky-800">CSC</span>
+          </div>
+          <div class="text-[11px] text-slate-400 tracking-wider uppercase font-medium">Internet Cafe & Citizen Services</div>
+        </div>
+      </a>
+
+      <!-- Desktop Nav Links -->
+      <div class="hidden md:flex items-center space-x-8 text-sm font-medium">
+        <a href="#home" class="text-slate-300 hover:text-white transition relative py-1 hover:border-b-2 hover:border-sky-400">Home</a>
+        <a href="#about" class="text-slate-300 hover:text-white transition relative py-1 hover:border-b-2 hover:border-sky-400">About & Gallery</a>
+        <a href="#services" class="text-slate-300 hover:text-white transition relative py-1 hover:border-b-2 hover:border-sky-400">Services Hub</a>
+        <a href="#appointment" class="text-slate-300 hover:text-white transition relative py-1 hover:border-b-2 hover:border-sky-400">Book Appointment</a>
+        <a href="#reviews" class="text-slate-300 hover:text-white transition relative py-1 hover:border-b-2 hover:border-sky-400">Reviews</a>
+        <a href="#contact" class="text-slate-300 hover:text-white transition relative py-1 hover:border-b-2 hover:border-sky-400">Contact</a>
+      </div>
+
+      <!-- Action Button -->
+      <div class="flex items-center gap-3">
+        <a href="#appointment" class="hidden sm:inline-flex items-center gap-2 px-4 py-2.5 rounded-lg text-sm font-semibold bg-gradient-to-r from-sky-500 to-sky-600 hover:from-sky-400 hover:to-sky-500 text-white shadow-lg shadow-sky-500/20 hover:shadow-sky-500/40 transition-all duration-200">
+          <i class="fa-regular fa-calendar-check"></i> Book Next Day Slot
+        </a>
+
+        <!-- Mobile Menu Toggle -->
+        <button id="mobileMenuBtn" aria-label="Toggle Navigation Menu" class="md:hidden text-slate-300 hover:text-white text-2xl p-2 focus:outline-none">
+          <i class="fa-solid fa-bars-staggered"></i>
+        </button>
+      </div>
+
+    </div>
+
+    <!-- Mobile Navigation Drawer -->
+    <div id="mobileMenu" class="hidden md:hidden bg-slate-950/95 border-b border-white/10 px-6 py-6 space-y-4">
+      <a href="#home" class="block text-slate-200 hover:text-sky-400 text-base font-medium mobile-nav-link">Home</a>
+      <a href="#about" class="block text-slate-200 hover:text-sky-400 text-base font-medium mobile-nav-link">About & Album</a>
+      <a href="#services" class="block text-slate-200 hover:text-sky-400 text-base font-medium mobile-nav-link">All Services</a>
+      <a href="#appointment" class="block text-slate-200 hover:text-sky-400 text-base font-medium mobile-nav-link">Book Appointment (Next Day)</a>
+      <a href="#reviews" class="block text-slate-200 hover:text-sky-400 text-base font-medium mobile-nav-link">Client Reviews</a>
+      <a href="#contact" class="block text-slate-200 hover:text-sky-400 text-base font-medium mobile-nav-link">Contact & Location</a>
+      <a href="#appointment" class="w-full text-center block px-4 py-3 rounded-lg font-semibold bg-sky-500 text-white shadow-lg mobile-nav-link">
+        Book Appointment
+      </a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="relative pt-12 pb-24 md:pt-20 md:pb-32 hero-mesh overflow-hidden">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6">
+      <div class="grid lg:grid-cols-12 gap-12 items-center">
+        
+        <!-- Left Hero Content -->
+        <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+          
+          <!-- Live Realtime Shop Status Indicator -->
+          <div class="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full bg-slate-900/80 border border-slate-700/60 shadow-inner">
+            <span id="liveStatusDot" class="w-2.5 h-2.5 rounded-full bg-slate-500 relative pulse-ring"></span>
+            <span id="liveStatusText" class="text-xs font-semibold tracking-wide text-slate-300">Checking Live Shop Hours...</span>
+          </div>
+
+          <h1 class="font-heading text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white leading-tight tracking-tight">
+            Kanpur’s Premier <br>
+            <span class="text-transparent bg-clip-text bg-gradient-to-r from-sky-400 via-sky-300 to-amber-300">Digital Solutions & CSC Hub</span>
+          </h1>
+
+          <p class="text-slate-400 text-base sm:text-lg max-w-2xl mx-auto lg:mx-0 leading-relaxed">
+            Delivering precision, government compliance, fast online applications, instant AEPS cash withdrawals, PAN card creations, and ultra-crisp Xerox & printing services with 100 Mbps fibre connectivity.
+          </p>
+
+          <!-- Key Metrics / Trust Badges -->
+          <div class="grid grid-cols-3 gap-4 pt-4 max-w-lg mx-auto lg:mx-0 border-y border-white/5 py-4">
+            <div class="text-center lg:text-left">
+              <div class="text-2xl sm:text-3xl font-heading font-extrabold text-sky-400">100%</div>
+              <div class="text-[12px] text-slate-400">Error-Free Verification</div>
+            </div>
+            <div class="text-center lg:text-left border-x border-white/10 px-2">
+              <div class="text-2xl sm:text-3xl font-heading font-extrabold text-amber-400">4.7 ★</div>
+              <div class="text-[12px] text-slate-400">Top Rated on Maps</div>
+            </div>
+            <div class="text-center lg:text-left">
+              <div class="text-2xl sm:text-3xl font-heading font-extrabold text-emerald-400">100 Mbps</div>
+              <div class="text-[12px] text-slate-400">Zero Buffer Optical Fibre</div>
+            </div>
+          </div>
+
+          <!-- CTA Buttons -->
+          <div class="flex flex-wrap justify-center lg:justify-start gap-4 pt-2">
+            <a href="#appointment" class="px-6 py-3.5 rounded-xl font-semibold bg-gradient-to-r from-sky-500 to-sky-600 hover:from-sky-400 hover:to-sky-500 text-white shadow-xl shadow-sky-500/25 transition-all duration-300 transform hover:-translate-y-0.5 flex items-center gap-2">
+              <i class="fa-regular fa-calendar-check"></i> Book Appointment Now
+            </a>
+            <a href="https://wa.me/919151512226?text=Hello%20Baba%20Shiv%20Internet%20Cafe,%20I%20would%20like%20to%20inquire%20about%20your%20services." target="_blank" class="px-6 py-3.5 rounded-xl font-semibold bg-emerald-600 hover:bg-emerald-500 text-white shadow-xl shadow-emerald-600/20 transition-all duration-300 transform hover:-translate-y-0.5 flex items-center gap-2">
+              <i class="fa-brands fa-whatsapp text-lg"></i> Direct WhatsApp
+            </a>
+          </div>
+
+        </div>
+
+        <!-- Right Hero Visual / Interactive Card -->
+        <div class="lg:col-span-5 relative">
+          <div class="relative mx-auto max-w-md">
+            
+            <!-- Glow background -->
+            <div class="absolute -inset-1 rounded-2xl bg-gradient-to-r from-sky-500 to-amber-500 opacity-25 blur-xl"></div>
+
+            <div class="relative glass-card rounded-2xl p-6 sm:p-8 space-y-6">
+              
+              <div class="flex items-center justify-between border-b border-white/10 pb-4">
+                <div class="flex items-center gap-3">
+                  <div class="w-10 h-10 rounded-full bg-sky-500/20 text-sky-400 flex items-center justify-center font-bold">
+                    <i class="fa-solid fa-bolt"></i>
+                  </div>
+                  <div>
+                    <h2 class="text-sm font-semibold text-white">Priority CSC Desk</h2>
+                    <p class="text-xs text-slate-400">Authorized Operator Centre</p>
+                  </div>
+                </div>
+                <span class="text-xs px-2.5 py-1 rounded-full bg-emerald-500/20 text-emerald-300 font-semibold border border-emerald-500/30">
+                  Verified Hub
+                </span>
+              </div>
+
+              <!-- Quick Service Shortcuts -->
+              <div class="space-y-3">
+                <div class="flex items-center justify-between p-3 rounded-xl bg-slate-900/60 hover:bg-slate-900 transition border border-white/5 cursor-pointer" onclick="scrollToService('pan')">
+                  <div class="flex items-center gap-3">
+                    <i class="fa-solid fa-address-card text-sky-400"></i>
+                    <span class="text-sm text-slate-200">Urgent PAN Card & Aadhaar PVC</span>
+                  </div>
+                  <i class="fa-solid fa-chevron-right text-xs text-slate-500"></i>
+                </div>
+
+                <div class="flex items-center justify-between p-3 rounded-xl bg-slate-900/60 hover:bg-slate-900 transition border border-white/5 cursor-pointer" onclick="scrollToService('govt')">
+                  <div class="flex items-center gap-3">
+                    <i class="fa-solid fa-landmark text-amber-400"></i>
+                    <span class="text-sm text-slate-200">Income / Caste / Domicile Certificates</span>
+                  </div>
+                  <i class="fa-solid fa-chevron-right text-xs text-slate-500"></i>
+                </div>
+
+                <div class="flex items-center justify-between p-3 rounded-xl bg-slate-900/60 hover:bg-slate-900 transition border border-white/5 cursor-pointer" onclick="scrollToService('banking')">
+                  <div class="flex items-center gap-3">
+                    <i class="fa-solid fa-money-bill-transfer text-emerald-400"></i>
+                    <span class="text-sm text-slate-200">AEPS Cash Withdrawal & Money Transfer</span>
+                  </div>
+                  <i class="fa-solid fa-chevron-right text-xs text-slate-500"></i>
+                </div>
+
+                <div class="flex items-center justify-between p-3 rounded-xl bg-slate-900/60 hover:bg-slate-900 transition border border-white/5 cursor-pointer" onclick="scrollToService('forms')">
+                  <div class="flex items-center gap-3">
+                    <i class="fa-solid fa-file-signature text-purple-400"></i>
+                    <span class="text-sm text-slate-200">Online Job & University Admissions</span>
+                  </div>
+                  <i class="fa-solid fa-chevron-right text-xs text-slate-500"></i>
+                </div>
+              </div>
+
+              <!-- Live Time Notice -->
+              <div class="bg-brand-900/40 border border-sky-500/20 rounded-xl p-3.5 flex items-center gap-3">
+                <i class="fa-regular fa-clock text-sky-400 text-lg"></i>
+                <div class="text-xs">
+                  <span class="font-semibold text-white block">Operating Schedule:</span>
+                  <span class="text-slate-300">Monday – Saturday: 9:00 AM – 10:00 PM</span>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section & 3D Interactive Album Gallery -->
+  <section id="about" class="py-20 border-t border-white/5 bg-slate-950/60 relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6">
+      
+      <div class="text-center max-w-3xl mx-auto mb-16 space-y-4">
+        <h2 class="text-xs font-bold uppercase tracking-widest text-sky-400">Official Profile & Showcase</h2>
+        <h3 class="font-heading text-3xl sm:text-4xl font-extrabold text-white">About Baba Shiv Internet Cafe</h3>
+        <p class="text-slate-400 text-sm sm:text-base leading-relaxed">
+          Operating in Barra 3, Kanpur under the leadership of <strong class="text-slate-200">Saurabh Gupta</strong>, our Common Service Centre provides cutting-edge digital infrastructure, ensuring all citizen welfare schemes, certificates, educational applications, and banking services reach every citizen seamlessly.
+        </p>
+      </div>
+
+      <!-- About Details Grid -->
+      <div class="grid md:grid-cols-3 gap-6 mb-16">
+        
+        <div class="glass-card rounded-2xl p-6 text-center hover:-translate-y-1 transition duration-300">
+          <div class="w-12 h-12 mx-auto rounded-xl bg-sky-500/10 text-sky-400 flex items-center justify-center text-xl mb-4">
+            <i class="fa-solid fa-shield-halved"></i>
+          </div>
+          <h4 class="font-heading font-bold text-lg text-white mb-2">Government Authorized (CSC)</h4>
+          <p class="text-xs text-slate-400 leading-relaxed">
+            Registered CSC Centre (ID: 663467150015) offering official Digital India e-district services, legal documentation, and MSME registrations.
+          </p>
+        </div>
+
+        <div class="glass-card rounded-2xl p-6 text-center hover:-translate-y-1 transition duration-300">
+          <div class="w-12 h-12 mx-auto rounded-xl bg-amber-500/10 text-amber-400 flex items-center justify-center text-xl mb-4">
+            <i class="fa-solid fa-gauge-high"></i>
+          </div>
+          <h4 class="font-heading font-bold text-lg text-white mb-2">100 Mbps Gigabit Wi-Fi</h4>
+          <p class="text-xs text-slate-400 leading-relaxed">
+            Equipped with uninterrupted high-bandwidth connectivity and advanced multi-function laser printers for bulk scanning and instant Xerox copies.
+          </p>
+        </div>
+
+        <div class="glass-card rounded-2xl p-6 text-center hover:-translate-y-1 transition duration-300">
+          <div class="w-12 h-12 mx-auto rounded-xl bg-emerald-500/10 text-emerald-400 flex items-center justify-center text-xl mb-4">
+            <i class="fa-solid fa-user-check"></i>
+          </div>
+          <h4 class="font-heading font-bold text-lg text-white mb-2">Operator Supervision</h4>
+          <p class="text-xs text-slate-400 leading-relaxed">
+            Personal guidance by Saurabh Gupta for complex government examination forms, quota certificates, and biometric cash withdrawals.
+          </p>
+        </div>
+
+      </div>
+
+      <!-- 3D Photo Album Gallery -->
+      <div class="mt-12">
+        <div class="flex flex-wrap items-center justify-between mb-8 gap-4">
+          <div>
+            <h4 class="font-heading font-bold text-2xl text-white">Centre Album & Facilities</h4>
+            <p class="text-xs text-slate-400">Click any photo to enlarge and view verified workstation photos</p>
+          </div>
+          <span class="text-xs text-sky-400 bg-sky-950/60 px-3 py-1.5 rounded-lg border border-sky-800">
+            <i class="fa-solid fa-expand mr-1"></i> Interactive Lightbox Available
+          </span>
+        </div>
+
+        <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          
+          <!-- Album Item 1: Counter & Workstation -->
+          <div class="tilt-card group relative rounded-2xl overflow-hidden glass-card cursor-pointer border border-white/10" onclick="openLightbox('Workstation & Operator Desk', 'Authorized CSC operating desk equipped with biometric terminals and high-speed multi-core systems.')">
+            <div class="h-64 bg-slate-900 relative overflow-hidden flex items-center justify-center">
+              <div class="text-center p-6 space-y-2">
+                <i class="fa-solid fa-desktop text-5xl text-sky-400 group-hover:scale-110 transition duration-300"></i>
+                <div class="text-sm font-bold text-white">Operator & CSC Desk</div>
+                <div class="text-[11px] text-slate-400">Saurabh Gupta | Digital India Station</div>
+              </div>
+              <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent to-transparent opacity-80"></div>
+            </div>
+            <div class="p-4 bg-slate-950/90 border-t border-white/5">
+              <span class="text-[11px] font-semibold text-sky-400 uppercase tracking-wider">Facility</span>
+              <h5 class="text-sm font-bold text-white group-hover:text-sky-300 transition">Main Service Counter</h5>
+            </div>
+          </div>
+
+          <!-- Album Item 2: Main Banner -->
+          <div class="tilt-card group relative rounded-2xl overflow-hidden glass-card cursor-pointer border border-white/10" onclick="openLightbox('Centre Main Identity Banner', 'Official signage reflecting CSC ID: 663467150015 and verified services.')">
+            <div class="h-64 bg-slate-900 relative overflow-hidden flex items-center justify-center">
+              <div class="text-center p-6 space-y-2">
+                <i class="fa-solid fa-id-badge text-5xl text-amber-400 group-hover:scale-110 transition duration-300"></i>
+                <div class="text-sm font-bold text-white">Official Centre Signage</div>
+                <div class="text-[11px] text-slate-400">CSC ID: 663467150015</div>
+              </div>
+              <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent to-transparent opacity-80"></div>
+            </div>
+            <div class="p-4 bg-slate-950/90 border-t border-white/5">
+              <span class="text-[11px] font-semibold text-amber-400 uppercase tracking-wider">Branding</span>
+              <h5 class="text-sm font-bold text-white group-hover:text-amber-300 transition">Official CSC Banner</h5>
+            </div>
+          </div>
+
+          <!-- Album Item 3: Street Standee -->
+          <div class="tilt-card group relative rounded-2xl overflow-hidden glass-card cursor-pointer border border-white/10" onclick="openLightbox('100 Mbps Wi-Fi Street Standee', 'Located at Barra 3, Janta Nagar, Neemeshwar MahaMandir Society landmark.')">
+            <div class="h-64 bg-slate-900 relative overflow-hidden flex items-center justify-center">
+              <div class="text-center p-6 space-y-2">
+                <i class="fa-solid fa-map-location-dot text-5xl text-emerald-400 group-hover:scale-110 transition duration-300"></i>
+                <div class="text-sm font-bold text-white">Barra 3 Street Navigator</div>
+                <div class="text-[11px] text-slate-400">100 Mbps High-Speed Zone</div>
+              </div>
+              <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent to-transparent opacity-80"></div>
+            </div>
+            <div class="p-4 bg-slate-950/90 border-t border-white/5">
+              <span class="text-[11px] font-semibold text-emerald-400 uppercase tracking-wider">Landmark</span>
+              <h5 class="text-sm font-bold text-white group-hover:text-emerald-300 transition">Entrance Standee Sign</h5>
+            </div>
+          </div>
+
+          <!-- Album Item 4: Verified Specimen Documentation -->
+          <div class="tilt-card group relative rounded-2xl overflow-hidden glass-card cursor-pointer border border-white/10" onclick="openLightbox('Official Revenue Certificate Specimen', 'Govt issued EWS / Income certificate format processed through our centre.')">
+            <div class="h-64 bg-slate-900 relative overflow-hidden flex items-center justify-center">
+              <div class="text-center p-6 space-y-2">
+                <i class="fa-solid fa-file-shield text-5xl text-purple-400 group-hover:scale-110 transition duration-300"></i>
+                <div class="text-sm font-bold text-white">Document Specimen</div>
+                <div class="text-[11px] text-slate-400">EWS, Caste, Income Formats</div>
+              </div>
+              <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent to-transparent opacity-80"></div>
+            </div>
+            <div class="p-4 bg-slate-950/90 border-t border-white/5">
+              <span class="text-[11px] font-semibold text-purple-400 uppercase tracking-wider">Specimen</span>
+              <h5 class="text-sm font-bold text-white group-hover:text-purple-300 transition">Sample Revenue Format</h5>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Interactive Lightbox Modal for Album -->
+  <div id="albumLightbox" class="fixed inset-0 z-50 bg-black/90 backdrop-blur-md hidden flex items-center justify-center p-4">
+    <div class="max-w-2xl w-full bg-slate-900 border border-white/20 rounded-2xl overflow-hidden shadow-2xl relative">
+      <button onclick="closeLightbox()" aria-label="Close Lightbox" class="absolute top-4 right-4 text-slate-400 hover:text-white text-xl z-10 w-9 h-9 rounded-full bg-slate-800/80 flex items-center justify-center">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+      <div class="p-8 text-center space-y-4">
+        <div class="w-20 h-20 mx-auto rounded-2xl bg-sky-500/20 text-sky-400 flex items-center justify-center text-4xl mb-4">
+          <i class="fa-solid fa-images"></i>
+        </div>
+        <h3 id="lightboxTitle" class="font-heading text-2xl font-bold text-white">Photo Title</h3>
+        <p id="lightboxDesc" class="text-slate-300 text-sm max-w-lg mx-auto">Photo description will be shown here.</p>
+        <div class="pt-4 flex justify-center gap-3">
+          <button onclick="closeLightbox()" class="px-5 py-2 rounded-lg text-xs font-semibold bg-slate-800 text-slate-300 hover:bg-slate-700">Close Preview</button>
+          <a href="#appointment" onclick="closeLightbox()" class="px-5 py-2 rounded-lg text-xs font-semibold bg-sky-600 text-white hover:bg-sky-500">Book Next Day Visit</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Services Hub Section with Search & Instant Filter -->
+  <section id="services" class="py-24 relative border-t border-white/5">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6">
+      
+      <div class="text-center max-w-3xl mx-auto mb-12 space-y-3">
+        <h2 class="text-xs font-bold uppercase tracking-widest text-sky-400">Complete Catalog</h2>
+        <h3 class="font-heading text-3xl sm:text-4xl font-extrabold text-white">CSC & Digital Services Hub</h3>
+        <p class="text-slate-400 text-sm sm:text-base">
+          Click any service card to view required documents, standard turnaround time, and specimen preview.
+        </p>
+
+        <!-- Live Search Bar -->
+        <div class="pt-6 max-w-xl mx-auto relative">
+          <i class="fa-solid fa-magnifying-glass absolute left-4 top-1/2 -translate-y-1/2 text-slate-400 text-base"></i>
+          <input type="text" id="serviceSearchInput" placeholder="Type to search (e.g., PAN card, EWS, Income, Cash withdrawal, Print)..." class="w-full pl-12 pr-4 py-3.5 rounded-xl bg-slate-900/90 border border-slate-700/80 text-white placeholder-slate-400 focus:outline-none focus:border-sky-500 focus:ring-2 focus:ring-sky-500/20 transition shadow-inner text-sm">
+        </div>
+      </div>
+
+      <!-- Services Grid -->
+      <div id="servicesContainer" class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+
+        <!-- 1. Revenue & Govt Certificates -->
+        <div class="service-item glass-card rounded-2xl p-6 flex flex-col justify-between tilt-card cursor-pointer border border-white/10 group" 
+             data-keywords="income caste domicile birth death praman patra aay jati niwas ews"
+             onclick="openServiceModal('Income, Caste & Domicile Certificates', 'Issuance of official revenue department certificates (Aay, Jaati, Niwas, and EWS) through the official UP E-District portal.', ['Aadhaar Card of Applicant', 'Ration Card / Parivar Register Copy', 'Passport Size Photograph', 'Self-Declaration Form', 'Salary Slip / Income proof (for Income cert)'], '3 - 7 Working Days')">
+          <div>
+            <div class="w-12 h-12 rounded-xl bg-amber-500/10 text-amber-400 flex items-center justify-center text-xl mb-4 group-hover:scale-110 transition duration-300">
+              <i class="fa-solid fa-certificate"></i>
+            </div>
+            <h4 class="font-heading font-bold text-lg text-white mb-2 group-hover:text-amber-400 transition">Income, Caste & Domicile</h4>
+            <p class="text-xs text-slate-400 mb-4 leading-relaxed">
+              Fast processing of Aay, Jaati, Niwas, and EWS certificates with digital seal verification for school admissions and government recruitment.
+            </p>
+          </div>
+          <div class="flex items-center justify-between pt-4 border-t border-white/5 text-xs font-semibold text-amber-400">
+            <span>View Requirements & Details</span>
+            <i class="fa-solid fa-arrow-right group-hover:translate-x-1 transition"></i>
+          </div>
+        </div>
+
+        <!-- 2. PAN Card & Aadhaar PVC -->
+        <div class="service-item glass-card rounded-2xl p-6 flex flex-col justify-between tilt-card cursor-pointer border border-white/10 group" 
+             data-keywords="pan card nsdl uti aadhaar pvc plastic card reprint correction mobile link"
+             onclick="openServiceModal('PAN Card (New / Correction) & PVC Aadhaar', 'Instant NSDL/UTI PAN card processing and high-grade PVC smart card printing for Aadhaar with QR security.', ['Aadhaar Card with linked mobile OTP (or biometric)', '2 Passport size photos (for offline signature mode)', 'Father\'s name & proof of identity'], 'Instant Digital e-PAN / 10-15 Days for Physical Delivery')">
+          <div>
+            <div class="w-12 h-12 rounded-xl bg-sky-500/10 text-sky-400 flex items-center justify-center text-xl mb-4 group-hover:scale-110 transition duration-300">
+              <i class="fa-solid fa-address-card"></i>
+            </div>
+            <h4 class="font-heading font-bold text-lg text-white mb-2 group-hover:text-sky-400 transition">PAN Card & Aadhaar PVC</h4>
+            <p class="text-xs text-slate-400 mb-4 leading-relaxed">
+              New PAN application, photo/signature correction, minor-to-major update, and durable chip-level PVC Aadhaar card printing.
+            </p>
+          </div>
+          <div class="flex items-center justify-between pt-4 border-t border-white/5 text-xs font-semibold text-sky-400">
+            <span>View Requirements & Details</span>
+            <i class="fa-solid fa-arrow-right group-hover:translate-x-1 transition"></i>
+          </div>
+        </div>
+
+        <!-- 3. Banking, AEPS & Money Transfer -->
+        <div class="service-item glass-card rounded-2xl p-6 flex flex-col justify-between tilt-card cursor-pointer border border-white/10 group" 
+             data-keywords="aeps atm micro money transfer cash withdrawal bank deposit dbt kyc"
+             onclick="openServiceModal('AEPS Micro-ATM & Money Transfer', 'Direct biometric cash withdrawal, account balance inquiry, mini statement generation, and instant IMPS/NEFT money transfers to any Indian bank.', ['Aadhaar linked Bank Account', 'Biometric Fingerprint Scan at Centre', 'Beneficiary Account Number & IFSC (for Money Transfer)'], 'Instant (Real-time Transaction Receipt)')">
+          <div>
+            <div class="w-12 h-12 rounded-xl bg-emerald-500/10 text-emerald-400 flex items-center justify-center text-xl mb-4 group-hover:scale-110 transition duration-300">
+              <i class="fa-solid fa-building-columns"></i>
+            </div>
+            <h4 class="font-heading font-bold text-lg text-white mb-2 group-hover:text-emerald-400 transition">AEPS & Money Transfer</h4>
+            <p class="text-xs text-slate-400 mb-4 leading-relaxed">
+              Withdraw money without an ATM card using biometric Aadhaar Pay. Direct cash transfer to all nationalized and private bank accounts.
+            </p>
+          </div>
+          <div class="flex items-center justify-between pt-4 border-t border-white/5 text-xs font-semibold text-emerald-400">
+            <span>View Requirements & Details</span>
+            <i class="fa-solid fa-arrow-right group-hover:translate-x-1 transition"></i>
+          </div>
+        </div>
+
+        <!-- 4. Online Recruitment & Exam Forms -->
+        <div class="service-item glass-card rounded-2xl p-6 flex flex-col justify-between tilt-card cursor-pointer border border-white/10 group" 
+             data-keywords="online form sarkari naukri upsc ssc railway police admission admit card result"
+             onclick="openServiceModal('Online Job & Admission Forms', 'Expert submission of Sarkari exam applications (UPSC, UP Police, SSC, Railways, Banking, CUET, NEET, JEE) with certified photo/signature formatting.', ['Educational Marksheets (10th/12th/Graduation)', 'Scanned Signature & Passport Photo', 'Category Certificate (if applicable)', 'Aadhaar Card & Active Mobile Number'], 'Same Day Online Submission with Hard Copy Printout')">
+          <div>
+            <div class="w-12 h-12 rounded-xl bg-purple-500/10 text-purple-400 flex items-center justify-center text-xl mb-4 group-hover:scale-110 transition duration-300">
+              <i class="fa-solid fa-file-pen"></i>
+            </div>
+            <h4 class="font-heading font-bold text-lg text-white mb-2 group-hover:text-purple-400 transition">Online Recruitment & Forms</h4>
+            <p class="text-xs text-slate-400 mb-4 leading-relaxed">
+              End-to-end assistance for competitive exams, admit card downloads, answer key verification, and secure online fee checkout.
+            </p>
+          </div>
+          <div class="flex items-center justify-between pt-4 border-t border-white/5 text-xs font-semibold text-purple-400">
+            <span>View Requirements & Details</span>
+            <i class="fa-solid fa-arrow-right group-hover:translate-x-1 transition"></i>
+          </div>
+        </div>
+
+        <!-- 5. High-Precision Printing, Xerox & Lamination -->
+        <div class="service-item glass-card rounded-2xl p-6 flex flex-col justify-between tilt-card cursor-pointer border border-white/10 group" 
+             data-keywords="print xerox photo copy lamination scanning pdf color black white urgent"
+             onclick="openServiceModal('Printing, Xerox & Lamination', 'High-speed laser printing, crystal clear document photocopies, optical scanning to searchable PDFs, and heavy-duty thermal lamination.', ['Digital file via WhatsApp / Email / Pen Drive', 'Physical documents for direct photocopy/lamination'], 'Immediate on-counter delivery')">
+          <div>
+            <div class="w-12 h-12 rounded-xl bg-rose-500/10 text-rose-400 flex items-center justify-center text-xl mb-4 group-hover:scale-110 transition duration-300">
+              <i class="fa-solid fa-print"></i>
+            </div>
+            <h4 class="font-heading font-bold text-lg text-white mb-2 group-hover:text-rose-400 transition">Print, Xerox & Lamination</h4>
+            <p class="text-xs text-slate-400 mb-4 leading-relaxed">
+              Professional monochrome and color printouts, urgent lamination, passport photos on glossy paper, and bulk scanning solutions.
+            </p>
+          </div>
+          <div class="flex items-center justify-between pt-4 border-t border-white/5 text-xs font-semibold text-rose-400">
+            <span>View Requirements & Details</span>
+            <i class="fa-solid fa-arrow-right group-hover:translate-x-1 transition"></i>
+          </div>
+        </div>
+
+        <!-- 6. Voter ID, Ration & Labour Cards -->
+        <div class="service-item glass-card rounded-2xl p-6 flex flex-col justify-between tilt-card cursor-pointer border border-white/10 group" 
+             data-keywords="voter id ration card shramik leber e shram majdoor labour card"
+             onclick="openServiceModal('Voter ID, Ration Card & Labour Scheme', 'Form 6 for new voter ID, constituency corrections, Ration Card unit addition, E-Shram registrations, and UP BOCW Labour Card welfare schemes.', ['Aadhaar Card', 'Family Member Details', 'Electricity Bill / Proof of Residence', 'Bank Passbook Copy'], '7 - 15 Working Days for verification')">
+          <div>
+            <div class="w-12 h-12 rounded-xl bg-indigo-500/10 text-indigo-400 flex items-center justify-center text-xl mb-4 group-hover:scale-110 transition duration-300">
+              <i class="fa-solid fa-id-card-clip"></i>
+            </div>
+            <h4 class="font-heading font-bold text-lg text-white mb-2 group-hover:text-indigo-400 transition">Voter, Ration & E-Shram</h4>
+            <p class="text-xs text-slate-400 mb-4 leading-relaxed">
+              New voter registrations, family unit modifications in Ration Card, and E-Shram / Labour card generation for workers.
+            </p>
+          </div>
+          <div class="flex items-center justify-between pt-4 border-t border-white/5 text-xs font-semibold text-indigo-400">
+            <span>View Requirements & Details</span>
+            <i class="fa-solid fa-arrow-right group-hover:translate-x-1 transition"></i>
+          </div>
+        </div>
+
+        <!-- 7. IRCTC Train & Travel Booking -->
+        <div class="service-item glass-card rounded-2xl p-6 flex flex-col justify-between tilt-card cursor-pointer border border-white/10 group" 
+             data-keywords="train ticket irctc railway reservation tatkal flight bus booking"
+             onclick="openServiceModal('Railway & Travel Reservations', 'Authorized railway ticket booking across all classes (Sleeper, 3AC, 2AC, 1AC) with confirmation tracking, Tatkal support, and PNR status checks.', ['Passenger Names & Ages', 'Valid Govt ID proof', 'Travel Date & Train Preference', 'Mobile number for SMS updates'], 'Immediate Booking with Confirmed E-Ticket Printout')">
+          <div>
+            <div class="w-12 h-12 rounded-xl bg-cyan-500/10 text-cyan-400 flex items-center justify-center text-xl mb-4 group-hover:scale-110 transition duration-300">
+              <i class="fa-solid fa-train"></i>
+            </div>
+            <h4 class="font-heading font-bold text-lg text-white mb-2 group-hover:text-cyan-400 transition">Railway & Travel Bookings</h4>
+            <p class="text-xs text-slate-400 mb-4 leading-relaxed">
+              Hassle-free IRCTC reservations from Kanpur Central, Govindpuri, and all Indian railway junctions with quick e-ticket printouts.
+            </p>
+          </div>
+          <div class="flex items-center justify-between pt-4 border-t border-white/5 text-xs font-semibold text-cyan-400">
+            <span>View Requirements & Details</span>
+            <i class="fa-solid fa-arrow-right group-hover:translate-x-1 transition"></i>
+          </div>
+        </div>
+
+        <!-- 8. MSME, GST & Business Services -->
+        <div class="service-item glass-card rounded-2xl p-6 flex flex-col justify-between tilt-card cursor-pointer border border-white/10 group" 
+             data-keywords="msme udyam registration gst ltr tax commercial business"
+             onclick="openServiceModal('MSME & Business Registrations', 'Udyam Registration for small businesses, shop act compliances, GST registration guidance, and L.T.R processing for commercial stability.', ['Aadhaar Card of Business Owner', 'PAN Card of Firm / Individual', 'Business Bank Account Details', 'Shop / Factory Address Proof'], '1 - 3 Working Days')">
+          <div>
+            <div class="w-12 h-12 rounded-xl bg-teal-500/10 text-teal-400 flex items-center justify-center text-xl mb-4 group-hover:scale-110 transition duration-300">
+              <i class="fa-solid fa-briefcase"></i>
+            </div>
+            <h4 class="font-heading font-bold text-lg text-white mb-2 group-hover:text-teal-400 transition">MSME & GST Services</h4>
+            <p class="text-xs text-slate-400 mb-4 leading-relaxed">
+              Official Udyam MSME certifications for loans and subsidies, GST filings, and firm registration assistance.
+            </p>
+          </div>
+          <div class="flex items-center justify-between pt-4 border-t border-white/5 text-xs font-semibold text-teal-400">
+            <span>View Requirements & Details</span>
+            <i class="fa-solid fa-arrow-right group-hover:translate-x-1 transition"></i>
+          </div>
+        </div>
+
+        <!-- 9. Passport & Police Verification -->
+        <div class="service-item glass-card rounded-2xl p-6 flex flex-col justify-between tilt-card cursor-pointer border border-white/10 group" 
+             data-keywords="passport seva kendra police verification character certificate cc"
+             onclick="openServiceModal('Passport & Police Verification', 'Passport Seva Kendra appointment booking, file submission, document fee checkout, and UP Police Character Certificate (Charitra Praman Patra).', ['Aadhaar Card', '10th Marksheet (for ECNR non-emigration)', 'Bank Passbook / Voter ID for address proof', 'Police station verification fee voucher'], 'Appointment within 2-4 days / Police verification 7-10 days')">
+          <div>
+            <div class="w-12 h-12 rounded-xl bg-orange-500/10 text-orange-400 flex items-center justify-center text-xl mb-4 group-hover:scale-110 transition duration-300">
+              <i class="fa-solid fa-passport"></i>
+            </div>
+            <h4 class="font-heading font-bold text-lg text-white mb-2 group-hover:text-orange-400 transition">Passport & Police Verification</h4>
+            <p class="text-xs text-slate-400 mb-4 leading-relaxed">
+              Appointment scheduling for Kanpur Passport Seva Kendra, document scrutiny, and online UP Police clearance certificates.
+            </p>
+          </div>
+          <div class="flex items-center justify-between pt-4 border-t border-white/5 text-xs font-semibold text-orange-400">
+            <span>View Requirements & Details</span>
+            <i class="fa-solid fa-arrow-right group-hover:translate-x-1 transition"></i>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Interactive Service Details Modal -->
+  <div id="serviceDetailsModal" class="fixed inset-0 z-50 bg-black/80 backdrop-blur-md hidden flex items-center justify-center p-4">
+    <div class="max-w-2xl w-full bg-slate-900 border border-white/10 rounded-2xl overflow-hidden shadow-2xl relative animate-in fade-in zoom-in duration-200">
+      
+      <div class="bg-gradient-to-r from-sky-900 via-slate-900 to-slate-900 p-6 border-b border-white/10 flex items-center justify-between">
+        <div>
+          <span class="text-[11px] font-bold uppercase tracking-widest text-sky-400">Service Specifications</span>
+          <h3 id="modalServiceTitle" class="font-heading text-xl font-bold text-white">Service Title</h3>
+        </div>
+        <button onclick="closeServiceModal()" aria-label="Close Service Modal" class="text-slate-400 hover:text-white text-xl w-8 h-8 rounded-full bg-slate-800 flex items-center justify-center">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+
+      <div class="p-6 space-y-6 max-h-[75vh] overflow-y-auto">
+        
+        <div>
+          <h4 class="text-xs font-bold uppercase text-slate-400 mb-2">Service Overview</h4>
+          <p id="modalServiceDesc" class="text-sm text-slate-300 leading-relaxed"></p>
+        </div>
+
+        <div class="bg-slate-950/70 rounded-xl p-4 border border-white/5">
+          <div class="flex items-center gap-2 text-xs font-bold uppercase text-amber-400 mb-3">
+            <i class="fa-solid fa-list-check"></i> Required Documents & Prerequisites
+          </div>
+          <ul id="modalServiceDocs" class="space-y-2 text-xs text-slate-300"></ul>
+        </div>
+
+        <div class="grid grid-cols-2 gap-4">
+          <div class="bg-slate-950/70 p-3.5 rounded-xl border border-white/5">
+            <div class="text-[11px] text-slate-400">Processing Time:</div>
+            <div id="modalServiceTime" class="text-xs font-bold text-emerald-400 mt-1">2-3 Days</div>
+          </div>
+          <div class="bg-slate-950/70 p-3.5 rounded-xl border border-white/5">
+            <div class="text-[11px] text-slate-400">Specimen Available:</div>
+            <div class="text-xs font-bold text-sky-400 mt-1">Authorized Sample Attached</div>
+          </div>
+        </div>
+
+        <!-- Sample Specimen Notice -->
+        <div class="p-4 rounded-xl bg-sky-950/30 border border-sky-500/20 text-xs text-sky-300 flex items-center gap-3">
+          <i class="fa-solid fa-file-shield text-xl text-sky-400 shrink-0"></i>
+          <div>
+            Our operators ensure all applications align strictly with Kanpur Nagar Tehsil & UP e-District standards to prevent document rejections.
+          </div>
+        </div>
+
+      </div>
+
+      <div class="p-4 bg-slate-950 border-t border-white/10 flex justify-end gap-3">
+        <button onclick="closeServiceModal()" class="px-4 py-2 rounded-lg text-xs font-semibold bg-slate-800 text-slate-300 hover:bg-slate-700">Dismiss</button>
+        <button onclick="selectServiceForBooking()" class="px-5 py-2 rounded-lg text-xs font-semibold bg-sky-600 hover:bg-sky-500 text-white flex items-center gap-1.5">
+          <i class="fa-solid fa-calendar-plus"></i> Select & Book Slot
+        </button>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Appointment Section with Next-Day Rule & OTP Verification -->
+  <section id="appointment" class="py-24 border-t border-white/5 bg-slate-950/80 relative">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6">
+      
+      <div class="text-center space-y-3 mb-12">
+        <h2 class="text-xs font-bold uppercase tracking-widest text-sky-400">Priority Desk Booking</h2>
+        <h3 class="font-heading text-3xl sm:text-4xl font-extrabold text-white">Book Your Next-Day Appointment</h3>
+        <p class="text-slate-400 text-sm max-w-xl mx-auto">
+          Skip the queue. Appointments are open starting from <strong class="text-white">tomorrow onwards</strong>. Verify your mobile number with OTP to confirm your slot directly with Saurabh Gupta.
+        </p>
+      </div>
+
+      <!-- Main Booking Form Card -->
+      <div class="glass-card rounded-3xl p-6 sm:p-10 border border-white/10 shadow-2xl relative">
+        
+        <form id="appointmentForm" class="space-y-6">
+          
+          <div class="grid sm:grid-cols-2 gap-6">
+            
+            <!-- Full Name -->
+            <div>
+              <label for="fullName" class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-2">
+                Full Name <span class="text-rose-400">*</span>
+              </label>
+              <input type="text" id="fullName" required placeholder="Enter your full name" class="w-full px-4 py-3 rounded-xl bg-slate-900 border border-slate-700 text-white placeholder-slate-500 text-sm focus:outline-none focus:border-sky-500 focus:ring-1 focus:ring-sky-500">
+            </div>
+
+            <!-- Gender -->
+            <div>
+              <label for="gender" class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-2">
+                Gender <span class="text-rose-400">*</span>
+              </label>
+              <select id="gender" required class="w-full px-4 py-3 rounded-xl bg-slate-900 border border-slate-700 text-white text-sm focus:outline-none focus:border-sky-500">
+                <option value="">Select Gender</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Other">Other</option>
+              </select>
+            </div>
+
+          </div>
+
+          <div class="grid sm:grid-cols-2 gap-6">
+            
+            <!-- Mobile Number with OTP Verification Engine -->
+            <div>
+              <label for="mobileNumber" class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-2">
+                Mobile Number (10 Digits) <span class="text-rose-400">*</span>
+              </label>
+              <div class="flex gap-2">
+                <input type="tel" id="mobileNumber" maxlength="10" pattern="[0-9]{10}" required placeholder="e.g. 9151512226" class="w-full px-4 py-3 rounded-xl bg-slate-900 border border-slate-700 text-white placeholder-slate-500 text-sm focus:outline-none focus:border-sky-500">
+                <button type="button" id="sendOtpBtn" onclick="handleSendOTP()" class="px-4 py-3 rounded-xl bg-sky-600 hover:bg-sky-500 text-white text-xs font-semibold whitespace-nowrap transition">
+                  Send OTP
+                </button>
+              </div>
+              <div id="otpStatusNotice" class="text-[11px] mt-1.5 text-slate-400">Enter mobile number to generate OTP</div>
+            </div>
+
+            <!-- OTP Input Field (Shows after send) -->
+            <div>
+              <label for="otpCode" class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-2">
+                SMS OTP Verification <span class="text-rose-400">*</span>
+              </label>
+              <div class="flex gap-2">
+                <input type="text" id="otpCode" maxlength="6" disabled placeholder="6-digit OTP code" class="w-full px-4 py-3 rounded-xl bg-slate-900/50 border border-slate-700 text-white placeholder-slate-600 text-sm focus:outline-none focus:border-emerald-500 disabled:opacity-50">
+                <button type="button" id="verifyOtpBtn" disabled onclick="handleVerifyOTP()" class="px-4 py-3 rounded-xl bg-emerald-600 hover:bg-emerald-500 disabled:bg-slate-800 disabled:text-slate-500 text-white text-xs font-semibold whitespace-nowrap transition">
+                  Verify OTP
+                </button>
+              </div>
+              <div id="otpVerifiedBadge" class="hidden text-[11px] text-emerald-400 font-semibold mt-1.5 flex items-center gap-1">
+                <i class="fa-solid fa-circle-check"></i> Mobile Number Verified Successfully
+              </div>
+            </div>
+
+          </div>
+
+          <div class="grid sm:grid-cols-2 gap-6">
+            
+            <!-- Appointment Date (Next-Day Enforced) -->
+            <div>
+              <label for="appointmentDate" class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-2">
+                Appointment Date <span class="text-rose-400">* (Tomorrow onwards)</span>
+              </label>
+              <input type="date" id="appointmentDate" required class="w-full px-4 py-3 rounded-xl bg-slate-900 border border-slate-700 text-white text-sm focus:outline-none focus:border-sky-500">
+              <span class="text-[11px] text-slate-400">Strictly next working day or later</span>
+            </div>
+
+            <!-- Email ID -->
+            <div>
+              <label for="userEmail" class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-2">
+                Email Address <span class="text-rose-400">*</span>
+              </label>
+              <input type="email" id="userEmail" required placeholder="yourname@gmail.com" class="w-full px-4 py-3 rounded-xl bg-slate-900 border border-slate-700 text-white placeholder-slate-500 text-sm focus:outline-none focus:border-sky-500">
+            </div>
+
+          </div>
+
+          <!-- Work Type Dropdown with "Other" trigger -->
+          <div>
+            <label for="workType" class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-2">
+              Work Type / Required Service <span class="text-rose-400">*</span>
+            </label>
+            <select id="workType" required onchange="handleWorkTypeChange()" class="w-full px-4 py-3 rounded-xl bg-slate-900 border border-slate-700 text-white text-sm focus:outline-none focus:border-sky-500">
+              <option value="">Select Required Service</option>
+              <option value="Income / Caste / Domicile Certificate">Income / Caste / Domicile Certificate</option>
+              <option value="PAN Card Application / Correction">PAN Card Application / Correction</option>
+              <option value="Aadhaar PVC Smart Card">Aadhaar PVC Smart Card</option>
+              <option value="AEPS Cash Withdrawal / Money Transfer">AEPS Cash Withdrawal / Money Transfer</option>
+              <option value="Online Govt / University Exam Form">Online Govt / University Exam Form</option>
+              <option value="High-Volume Print / Xerox / Lamination">High-Volume Print / Xerox / Lamination</option>
+              <option value="Voter ID / Ration Card Modification">Voter ID / Ration Card Modification</option>
+              <option value="IRCTC Railway Reservation">IRCTC Railway Reservation</option>
+              <option value="MSME / GST Registration">MSME / GST Registration</option>
+              <option value="Passport / Police Verification">Passport / Police Verification</option>
+              <option value="Other">Other (Specify Custom Requirement)</option>
+            </select>
+          </div>
+
+          <!-- Hidden Other Work Specification Field -->
+          <div id="otherWorkContainer" class="hidden">
+            <label for="otherWorkInput" class="block text-xs font-semibold text-amber-400 uppercase tracking-wider mb-2">
+              Please Specify Your Custom Work Requirement <span class="text-rose-400">*</span>
+            </label>
+            <input type="text" id="otherWorkInput" placeholder="Specify here..." class="w-full px-4 py-3 rounded-xl bg-slate-900 border border-amber-500/50 text-white text-sm focus:outline-none focus:border-amber-400">
+          </div>
+
+          <!-- Address -->
+          <div>
+            <label for="userAddress" class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-2">
+              Your Full Address (Locality / Landmark) <span class="text-rose-400">*</span>
+            </label>
+            <input type="text" id="userAddress" required placeholder="e.g. Barra 3, Janta Nagar, Kanpur" class="w-full px-4 py-3 rounded-xl bg-slate-900 border border-slate-700 text-white placeholder-slate-500 text-sm focus:outline-none focus:border-sky-500">
+          </div>
+
+          <!-- Detailed Description -->
+          <div>
+            <label for="workDescription" class="block text-xs font-semibold text-slate-300 uppercase tracking-wider mb-2">
+              Detailed Description of Work <span class="text-rose-400">*</span>
+            </label>
+            <textarea id="workDescription" rows="3" required placeholder="Describe what documents you possess, any corrections needed, or special requests..." class="w-full px-4 py-3 rounded-xl bg-slate-900 border border-slate-700 text-white placeholder-slate-500 text-sm focus:outline-none focus:border-sky-500"></textarea>
+          </div>
+
+          <!-- Submit Button (Disabled until OTP is verified) -->
+          <div class="pt-2">
+            <button type="submit" id="submitAppointmentBtn" disabled class="w-full py-4 rounded-xl font-heading font-bold text-base bg-sky-600 hover:bg-sky-500 disabled:bg-slate-800 disabled:text-slate-500 disabled:cursor-not-allowed text-white shadow-xl shadow-sky-500/20 transition-all duration-300">
+              <i class="fa-solid fa-lock mr-2 text-xs"></i> Verify Mobile With OTP To Enable Booking
+            </button>
+            <p class="text-center text-[11px] text-slate-400 mt-2">
+              Booking requests are instantly notified to <span class="text-slate-300">cafe5301@gmail.com</span>
+            </p>
+          </div>
+
+        </form>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Post-Submission Congratulation & Security Warning Modal (Dual Language) -->
+  <div id="submissionSuccessModal" class="fixed inset-0 z-50 bg-black/85 backdrop-blur-md hidden flex items-center justify-center p-4">
+    <div class="max-w-xl w-full bg-slate-900 border border-sky-500/30 rounded-3xl overflow-hidden shadow-2xl animate-in zoom-in-95 duration-200">
+      
+      <!-- Modal Header -->
+      <div class="bg-gradient-to-r from-emerald-600 to-sky-600 p-6 text-center text-white relative">
+        <div class="w-16 h-16 mx-auto rounded-full bg-white/20 backdrop-blur-md flex items-center justify-center text-3xl mb-3 shadow-lg">
+          <i class="fa-solid fa-check"></i>
+        </div>
+        <h3 class="font-heading text-2xl font-extrabold">Form Submitted Successfully!</h3>
+        <p class="text-xs text-emerald-100 uppercase tracking-wider font-semibold">Priority Booking Confirmed</p>
+      </div>
+
+      <!-- Modal Body -->
+      <div class="p-6 sm:p-8 space-y-6">
+        
+        <!-- Dual Language Congratulatory Message -->
+        <div class="space-y-3 bg-slate-950 p-5 rounded-2xl border border-white/5">
+          <div class="text-sm text-slate-200 leading-relaxed font-medium">
+            <span class="text-sky-400 font-bold">English:</span> Congratulations <span id="confirmedUserName" class="text-white font-bold underline"></span>, your form has been submitted successfully! Our team will contact you shortly regarding your appointment.
+          </div>
+          <div class="h-px bg-white/10"></div>
+          <div class="text-sm text-slate-200 leading-relaxed font-medium">
+            <span class="text-amber-400 font-bold">हिन्दी:</span> बधाई हो <span id="confirmedUserNameHindi" class="text-white font-bold underline"></span>, आपका फॉर्म सफलतापूर्वक जमा हो गया है! हमारी टीम जल्द ही आपके अपॉइंटमेंट के संबंध में आपसे संपर्क करेगी।
+          </div>
+        </div>
+
+        <!-- Strict Security Warning Alert -->
+        <div class="p-5 rounded-2xl bg-rose-950/40 border border-rose-500/40 space-y-3">
+          <div class="flex items-center gap-2 text-rose-400 font-bold text-xs uppercase tracking-wider">
+            <i class="fa-solid fa-triangle-exclamation text-base"></i> Official Security Warning / सुरक्षा चेतावनी
+          </div>
+          
+          <p class="text-xs text-rose-200 leading-relaxed">
+            <strong>English:</strong> Our team will <u>ONLY</u> contact you from mobile number <strong>+91 9151512226</strong> or email <strong>cafe5301@gmail.com</strong>. Do not respond to or share any OTPs, personal documents, or banking information with any other number or email.
+          </p>
+
+          <p class="text-xs text-rose-200 leading-relaxed">
+            <strong>हिन्दी:</strong> हमारी टीम आपसे केवल मोबाइल नंबर <strong>+91 9151512226</strong> या ईमेल <strong>cafe5301@gmail.com</strong> से ही संपर्क करेगी। इसके अलावा किसी भी अन्य नंबर या ईमेल का जवाब न दें और कोई भी OTP या दस्तावेज साझा न करें।
+          </p>
+        </div>
+
+        <button onclick="closeSuccessModal()" class="w-full py-3.5 rounded-xl bg-sky-600 hover:bg-sky-500 font-heading font-bold text-sm text-white transition shadow-lg shadow-sky-600/30">
+          I Understand & Acknowledge
+        </button>
+
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Real Reviews & 5-Star Interactive Rating Section -->
+  <section id="reviews" class="py-24 border-t border-white/5 bg-slate-950/40 relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6">
+      
+      <div class="text-center max-w-3xl mx-auto mb-16 space-y-3">
+        <h2 class="text-xs font-bold uppercase tracking-widest text-sky-400">Authentic Customer Feedback</h2>
+        <h3 class="font-heading text-3xl sm:text-4xl font-extrabold text-white">4.7-Star Customer Experiences</h3>
+        <p class="text-slate-400 text-sm">
+          Verified reviews from Google Maps and local visitors of Barra 3, Kanpur.
+        </p>
+      </div>
+
+      <!-- Verified Google Maps Reviews Grid -->
+      <div class="grid md:grid-cols-3 gap-6 mb-16">
+        
+        <!-- Review 1 -->
+        <div class="glass-card rounded-2xl p-6 border border-white/10 flex flex-col justify-between">
+          <div class="space-y-4">
+            <div class="flex items-center justify-between">
+              <div class="flex text-amber-400 text-sm gap-1">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              </div>
+              <span class="text-[11px] text-slate-500">Google Verified</span>
+            </div>
+            <p class="text-xs text-slate-300 leading-relaxed italic">
+              "Best internet Cafe ....this boys are awesome. Do everything for u (online work). U can pay here by any type of payment."
+            </p>
+          </div>
+          <div class="pt-4 border-t border-white/5 mt-4 flex items-center gap-3">
+            <div class="w-8 h-8 rounded-full bg-sky-500/20 text-sky-400 font-bold flex items-center justify-center text-xs">GG</div>
+            <div>
+              <div class="text-xs font-bold text-white">Gaurav Gupta</div>
+              <div class="text-[10px] text-slate-400">Local Guide · 356 Reviews</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Review 2 -->
+        <div class="glass-card rounded-2xl p-6 border border-white/10 flex flex-col justify-between">
+          <div class="space-y-4">
+            <div class="flex items-center justify-between">
+              <div class="flex text-amber-400 text-sm gap-1">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              </div>
+              <span class="text-[11px] text-slate-500">Google Verified</span>
+            </div>
+            <p class="text-xs text-slate-300 leading-relaxed italic">
+              "Doing all types of urgent work. Best service and prompt response for urgent forms."
+            </p>
+          </div>
+          <div class="pt-4 border-t border-white/5 mt-4 flex items-center gap-3">
+            <div class="w-8 h-8 rounded-full bg-amber-500/20 text-amber-400 font-bold flex items-center justify-center text-xs">RG</div>
+            <div>
+              <div class="text-xs font-bold text-white">Raj Gupta</div>
+              <div class="text-[10px] text-slate-400">Local Guide · Kanpur</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Review 3 -->
+        <div class="glass-card rounded-2xl p-6 border border-white/10 flex flex-col justify-between">
+          <div class="space-y-4">
+            <div class="flex items-center justify-between">
+              <div class="flex text-amber-400 text-sm gap-1">
+                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+              </div>
+              <span class="text-[11px] text-slate-500">Google Verified</span>
+            </div>
+            <p class="text-xs text-slate-300 leading-relaxed italic">
+              "Best services from saurabh ji. Best internet cafe in barra area with 100 Mbps fast wifi."
+            </p>
+          </div>
+          <div class="pt-4 border-t border-white/5 mt-4 flex items-center gap-3">
+            <div class="w-8 h-8 rounded-full bg-emerald-500/20 text-emerald-400 font-bold flex items-center justify-center text-xs">US</div>
+            <div>
+              <div class="text-xs font-bold text-white">Udit Shukla & Vipin Mishra</div>
+              <div class="text-[10px] text-slate-400">Barra 3 Residents</div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Interactive 5-Star Review Form -->
+      <div class="max-w-2xl mx-auto glass-card rounded-3xl p-6 sm:p-8 border border-white/10">
+        <h4 class="font-heading font-bold text-xl text-white mb-2 text-center">Share Your Feedback</h4>
+        <p class="text-xs text-slate-400 text-center mb-6">Your ratings and reviews are delivered directly to the owner at cafe5301@gmail.com</p>
+
+        <form id="reviewSubmissionForm" onsubmit="handleReviewSubmit(event)" class="space-y-4">
+          
+          <div class="text-center">
+            <div class="text-xs font-semibold text-slate-300 uppercase tracking-wider mb-2">Select Your Rating</div>
+            <div class="inline-flex gap-2 text-2xl text-slate-600 cursor-pointer" id="starRatingContainer">
+              <i class="fa-solid fa-star transition hover:scale-125" data-rating="1" onclick="setRating(1)"></i>
+              <i class="fa-solid fa-star transition hover:scale-125" data-rating="2" onclick="setRating(2)"></i>
+              <i class="fa-solid fa-star transition hover:scale-125" data-rating="3" onclick="setRating(3)"></i>
+              <i class="fa-solid fa-star transition hover:scale-125" data-rating="4" onclick="setRating(4)"></i>
+              <i class="fa-solid fa-star transition hover:scale-125" data-rating="5" onclick="setRating(5)"></i>
+            </div>
+            <input type="hidden" id="selectedStarValue"
